@@ -14,6 +14,8 @@ baseline_mondrian_metep.ipynb  → Notebook principal (Python 3)
 
 Abra e execute o notebook `baseline_mondrian_metep.ipynb` num ambiente com `pandas`, `numpy`, `matplotlib` e `seaborn`.
 
+Os arquivos CSV do SiSU 2016 são **baixados automaticamente** na Secção 1 do notebook, caso não estejam presentes em `experimental_base/`. O download usa apenas a stdlib do Python (`urllib`, `html.parser`) — sem dependências adicionais. Se o portal estiver indisponível, a célula imprime o URL para download manual.
+
 ## Tamanho da amostra
 
 Por padrão o notebook usa as primeiras **1.000 linhas** de cada arquivo. Ajuste a constante `NROWS` no topo do notebook conforme a necessidade:
